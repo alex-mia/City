@@ -1,6 +1,6 @@
 package com.example.city
 
-class Country (var nameCountry: String, var citys: City, var district: District, var region: Region,) {
+class Country (val nameCountry: String, val citys: City, val district: District, val region: Region) {
     fun area_info(){
         println("Площадь - ${region.area}")
     }
@@ -17,5 +17,4 @@ class Country (var nameCountry: String, var citys: City, var district: District,
     fun district_info(){
         println("Районные центры - ${district.district}")
     }
-
 }
