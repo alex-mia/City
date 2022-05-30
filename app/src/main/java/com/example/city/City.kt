@@ -1,4 +1,3 @@
 package com.example.city
 
-open class City(val nameCity: String, val capital: Boolean) {
-    }
+class City(val nameCity: String, val capital: Boolean)
